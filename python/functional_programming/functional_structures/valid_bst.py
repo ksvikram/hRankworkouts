@@ -1,5 +1,5 @@
 def isBST(a):
-    stack = []
+    	stack = []
 	lower = -1
 	state = True
 	for item in a:
@@ -8,7 +8,7 @@ def isBST(a):
 		while(len(stack) != 0 and stack[len(stack) - 1]  < item ):
 			lower = stack.pop()
 		stack.append(item)
-
+	
 	if state == False:
 		print "NO"
 	else:
