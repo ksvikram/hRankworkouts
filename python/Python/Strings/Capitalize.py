@@ -5,3 +5,6 @@ s1 = map(lambda x: x[0].upper() + x[1:]  , s1)
 for i in range(len(s2)):
     s = s.replace(s2[i], s1[i])
 print s    
+
+#Editorial solution:
+print ' '.join(word.capitalize() for word in raw_input().split(' '))
