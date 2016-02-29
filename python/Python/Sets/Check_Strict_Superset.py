@@ -2,10 +2,10 @@
 
 a = set(raw_input().strip().split())
 n = int(raw_input().strip())
-res = 'True'
+res = True
 for i in range(n):
     s = set(raw_input().strip().split())
     if len(a.intersection(s)) != len(s) or len(s) == len(a):
-        res = 'False'
+        res = False
         break
-print res        
+print res      
