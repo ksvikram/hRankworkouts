@@ -1,6 +1,6 @@
 #!/bin/python
 for _ in (range(int(input()))):
-    s1 = raw_input().strip() + "z"
+    s1 = raw_input().strip() + "z" #should be z or more because its  ascii should be  highest
     s2 = raw_input().strip() + "z"
     res = ''
     j = k =  0
