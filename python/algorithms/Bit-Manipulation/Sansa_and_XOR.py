@@ -1,4 +1,5 @@
 #!/bin/python
+#practice
 for _ in range(input()):
     res = 0
     n = input()
